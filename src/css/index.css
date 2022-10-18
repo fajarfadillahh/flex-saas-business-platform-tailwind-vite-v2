@@ -21,11 +21,25 @@
 
   /* button class */
   .button {
-    @apply h-[55px] flex justify-center py-4 px-8 bg-green-600 rounded-lg text-[15px] text-white font-semibold;
+    @apply h-[55px] flex justify-center py-4 px-8 bg-green-500 rounded-lg text-[15px] text-white font-semibold;
   }
 
   /* container class */
   .container {
     @apply max-w-[1120px] w-[calc(100%-3rem)] mx-auto;
   }
+}
+
+/* ===== HEADER SECTION ===== */
+@media screen and (max-width: 767px) {
+  .header__menu {
+    @apply fixed w-[85%] top-28 left-0 right-0 mx-auto text-center p-8 bg-gray-200 rounded-2xl transition-all duration-300 opacity-0 scale-y-0 origin-top;
+  }
+}
+.header__link {
+  @apply text-[15px] text-gray-900 hover:text-green-500;
+}
+/* show menu */
+.header__menu.show-menu {
+  @apply opacity-100 scale-y-100;
 }
