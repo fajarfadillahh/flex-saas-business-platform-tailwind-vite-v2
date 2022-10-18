@@ -43,3 +43,8 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-green-500 text-white;
+}
