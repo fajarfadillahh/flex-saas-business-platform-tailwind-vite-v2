@@ -13,10 +13,10 @@
     @apply pt-32 pb-16;
   }
   .section-title {
-    @apply text-[28px] text-gray-900 font-bold pb-4 leading-[135%];
+    @apply text-[28px] text-gray-900 font-bold pb-4 leading-[135%] dark:text-white;
   }
   .section-text {
-    @apply text-[15px] text-gray-500 pb-8 leading-[185%];
+    @apply text-[15px] text-gray-500 pb-8 leading-[185%] dark:text-white;
   }
 
   /* button class */
@@ -37,7 +37,7 @@
   }
 }
 .header__link {
-  @apply text-[15px] text-gray-900 hover:text-green-500;
+  @apply text-[15px] text-gray-900 hover:text-green-500 dark:text-white dark:hover:text-green-500;
 }
 /* show menu */
 .header__menu.show-menu {
